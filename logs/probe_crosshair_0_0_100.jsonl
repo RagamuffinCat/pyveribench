@@ -1,0 +1,885 @@
+{"task_id": "pv_002", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpsacohw_e/candidate.py:10: error: NameError: name 'bisect' is not defined when calling insert_sorted([0], 0)", "validated": "confirmed"}
+{"task_id": "pv_001", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp70cb989b/candidate.py:15: error: NameError: name 'bisect_left' is not defined when calling insert_sorted([-400], 0)", "validated": "confirmed"}
+{"task_id": "pv_001", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp85jlbean/candidate.py:6: error: false when calling insert_sorted([-1], 0) (which returns [0, -1])\n/tmp/tmp85jlbean/candidate.py:14: error: UnboundLocalError: cannot access local variable 'i' where it is not associated with a value when calling insert_sorted([], 0)", "validated": "confirmed"}
+{"task_id": "pv_004", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmph058ojex/candidate.py:6: error: false when calling remove_duplicates([0]) (which returns [])", "validated": "confirmed"}
+{"task_id": "pv_001", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp1ekj1474/candidate.py:7: error: false when calling insert_sorted([0], 0) (which returns [0, 0])", "validated": "spurious"}
+{"task_id": "pv_001", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpv9kgvb0g/candidate.py:8: error: false when calling insert_sorted([1], 0) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_003", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_007", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpmuk5qea7/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpm287fv7y/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpknh42edp/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpa0z8a3ut/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_005", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_007", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpyv66g8aa/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_006", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpuewz0_0g/candidate.py:12: error: ValueError: Input list must contain at least two elements. when calling swap_ends([0])", "validated": "confirmed"}
+{"task_id": "pv_022", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpsuj9hfh7/candidate.py:11: error: ZeroDivisionError:  when calling rotate_left([], 0)", "validated": "confirmed"}
+{"task_id": "pv_020", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp6yrqyxyg/candidate.py:9: error: false when calling rotate_left([26, 27, 25], 1) (which returns [25, 26, 27])", "validated": "confirmed"}
+{"task_id": "pv_020", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpx0u51l86/candidate.py:9: error: ZeroDivisionError:  when calling rotate_left([], 0)", "validated": "confirmed"}
+{"task_id": "pv_022", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmppox17ymk/candidate.py:10: error: ValueError: k must be between 0 and len(xs) when calling rotate_left([], 0)", "validated": "confirmed"}
+{"task_id": "pv_022", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpy8d21jvl/candidate.py:7: error: false when calling swap_ends([5, 4, 6]) (which returns [6, 4, 5])\n/tmp/tmpy8d21jvl/candidate.py:8: error: false when calling swap_ends([4, 5, 6]) (which returns [6, 5, 4])", "validated": "spurious"}
+{"task_id": "pv_024", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpsb71kp48/candidate.py:9: error: false when calling kth_smallest([30056, -17869], 1) (which returns 30056)\n/tmp/tmpsb71kp48/candidate.py:10: error: false when calling kth_smallest([30057, -17869], 2) (which returns -17869)", "validated": "confirmed"}
+{"task_id": "pv_021", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpctza9m8e/candidate.py:10: error: NameError: name 'groupby' is not defined when calling dedupe_adjacent([])", "validated": "confirmed"}
+{"task_id": "pv_024", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpykeztpn6/candidate.py:5: error: false when calling running_sum([]) (which returns [0])\n/tmp/tmpykeztpn6/candidate.py:6: error: false when calling running_sum([2]) (which returns [0, 2])", "validated": "confirmed"}
+{"task_id": "pv_027", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpzlhnzz4p/candidate.py:9: error: ValueError: Input list cannot be empty when calling running_sum([])", "validated": "confirmed"}
+{"task_id": "pv_028", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpd1or0ck9/candidate.py:12: error: NameError: name 'ceil' is not defined when calling chunk_sums([], 1)", "validated": "confirmed"}
+{"task_id": "pv_031", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpvdihsupo/candidate.py:6: error: false when calling interleave([0], [0]) (which returns [0])\n/tmp/tmpvdihsupo/candidate.py:7: error: Error while evaluating post condition: IndexError: list index out of range when calling interleave([0], [0]) (which returns [0])", "validated": "confirmed"}
+{"task_id": "pv_033", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp40sc0ie7/candidate.py:12: error: TypeError: 'ShellMutableSet' object is not subscriptable when calling two_sum_indices([30056, -30056], 0)", "validated": "confirmed"}
+{"task_id": "pv_035", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpij85mkh4/candidate.py:14: error: TypeError: 'ShellMutableSet' object is not subscriptable when calling two_sum_indices([-12187, 12187], 0)", "validated": "confirmed"}
+{"task_id": "pv_034", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpn6p3ds80/candidate.py:7: error: false when calling interleave([4, 5], [3, 3]) (which returns [4, 5, 3, 3])", "validated": "confirmed"}
+{"task_id": "pv_034", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp6empplm5/candidate.py:7: error: false when calling interleave([4, 5], [3, 3]) (which returns [4, 5, 3, 3])", "validated": "confirmed"}
+{"task_id": "pv_033", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpi3ypqjmb/candidate.py:7: error: Error while evaluating post condition: ValueError: invalid literal for int() with base 2: '' when calling int_to_binary(0) (which returns '')", "validated": "confirmed"}
+{"task_id": "pv_038", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp2qmlf_1y/candidate.py:7: error: Error while evaluating post condition: ValueError: invalid literal for int() with base 2: '' when calling int_to_binary(0) (which returns '')", "validated": "confirmed"}
+{"task_id": "pv_041", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpju0fjdxh/candidate.py:6: error: false when calling longest_common_prefix('\\x00\\x00\\x00', '\\x00\\x00') (which returns '\\x00\\x00\\x00')\n/tmp/tmpju0fjdxh/candidate.py:7: error: Error while evaluating post condition: IndexError: string index out of range when calling longest_common_prefix('\\x00\\x00', '\\x00') (which returns '\\x00\\x00')", "validated": "confirmed"}
+{"task_id": "pv_043", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpro5xoluo/candidate.py:6: error: false when calling longest_common_prefix('\\x00\\x00\\x00', '\\x00\\x00') (which returns '\\x00\\x00\\x00')\n/tmp/tmpro5xoluo/candidate.py:7: error: Error while evaluating post condition: IndexError: string index out of range when calling longest_common_prefix('\\x00\\x00', '\\x00') (which returns '\\x00\\x00')", "validated": "confirmed"}
+{"task_id": "pv_045", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp5r9j25hl/candidate.py:12: error: IndexError: string index out of range when calling rle_encode('')", "validated": "confirmed"}
+{"task_id": "pv_044", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpikfq_3ld/candidate.py:5: error: false when calling longest_run('') (which returns 1)", "validated": "confirmed"}
+{"task_id": "pv_046", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp1yxi6g6h/candidate.py:5: error: false when calling count_pairs_with_sum([0], 0) (which returns 1)", "validated": "confirmed"}
+{"task_id": "pv_047", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpdcf7ve0b/candidate.py:7: error: false when calling first_missing_positive([1]) (which returns 2)", "validated": "spurious"}
+{"task_id": "pv_048", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "syntax_error", "detail": "positional argument follows keyword argument (<unknown>, line 6)"}
+{"task_id": "pv_050", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "syntax_error", "detail": "invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<unknown>, line 6)"}
+{"task_id": "pv_048", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpw3zu4s4j/candidate.py:6: error: false when calling first_missing_positive([-1769, 1]) (which returns 1)", "validated": "confirmed"}
+{"task_id": "pv_050", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpnckanskz/candidate.py:14: error: TypeError: min expected at least 1 argument, got 0 when calling mode_smallest([0])", "validated": "confirmed"}
+{"task_id": "pv_047", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpoy0darp5/candidate.py:12: error: false when calling add_big_digits([0], [1]) (which returns [1])\n/tmp/tmpoy0darp5/candidate.py:13: error: Error while evaluating post condition: IndexError: list index out of range when calling add_big_digits([0], [0]) (which returns [])", "validated": "confirmed"}
+{"task_id": "pv_049", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpjwfe1y7i/candidate.py:12: error: false when calling add_big_digits([0], [1]) (which returns [1])\n/tmp/tmpjwfe1y7i/candidate.py:13: error: Error while evaluating post condition: IndexError: list index out of range when calling add_big_digits([0], [0]) (which returns [])", "validated": "confirmed"}
+{"task_id": "pv_052", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmps4odksht/candidate.py:6: error: false when calling sort_colors([])", "validated": "confirmed"}
+{"task_id": "pv_050", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpktr8xviw/candidate.py:17: error: IndexError: list index out of range when calling sort_colors([2])", "validated": "confirmed"}
+{"task_id": "pv_050", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpokigvn_a/candidate.py:6: error: false when calling sort_colors([])", "validated": "confirmed"}
+{"task_id": "pv_049", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpcjwu1d3x/candidate.py:12: error: false when calling add_big_digits([3], [9]) (which returns [1, 2])\n/tmp/tmpcjwu1d3x/candidate.py:13: error: false when calling add_big_digits([1], [9]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_052", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpb4y_02v0/candidate.py:6: error: false when calling sort_colors([2, 1]) (which returns [2, 1])", "validated": "confirmed"}
+{"task_id": "pv_049", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_053", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpflm9gcf5/candidate.py:6: error: false when calling best_gain([0]) (which returns float(\"-inf\"))", "validated": "confirmed"}
+{"task_id": "pv_053", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmposkkex4g/candidate.py:6: error: false when calling best_gain([0]) (which returns float(\"-inf\"))", "validated": "confirmed"}
+{"task_id": "pv_049", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpd592qpif/candidate.py:12: error: false when calling add_big_digits([0], [1]) (which returns [1])\n/tmp/tmpd592qpif/candidate.py:13: error: Error while evaluating post condition: IndexError: list index out of range when calling add_big_digits([0], [0]) (which returns [])", "validated": "confirmed"}
+{"task_id": "pv_053", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_053", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_053", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmphap0io37/candidate.py:18: error: TypeError: 'tuple' object does not support item assignment when calling merge_intervals([(0, 0), (0, 0)])", "validated": "confirmed"}
+{"task_id": "pv_051", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpwdvcwkzf/candidate.py:12: error: false when calling add_big_digits([9], [1]) (which returns [1])\n/tmp/tmpwdvcwkzf/candidate.py:13: error: Error while evaluating post condition: IndexError: list index out of range when calling add_big_digits([0], [0]) (which returns [])", "validated": "confirmed"}
+{"task_id": "pv_056", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpccc5fat4/candidate.py:7: error: Error while evaluating post condition: TypeError: '>=' not supported between instances of 'NoneType' and 'int' when calling gcd_bounded(3, 5)\n/tmp/tmpccc5fat4/candidate.py:8: error: false when calling gcd_bounded(1, 2) (which returns 2)\n/tmp/tmpccc5fat4/candidate.py:9: error: Error while evaluating post condition: TypeError: unsupported operand type(s) for %", "validated": "confirmed"}
+{"task_id": "pv_057", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmppw9pikgu/candidate.py:5: error: false when calling is_rotation('', '') (which returns False)", "validated": "confirmed"}
+{"task_id": "pv_058", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpld03vmpk/candidate.py:6: error: false when calling power_of_two_flag(0) (which returns True)", "validated": "confirmed"}
+{"task_id": "pv_058", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpxjbm6pln/candidate.py:6: error: false when calling power_of_two_flag(0) (which returns True)", "validated": "confirmed"}
+{"task_id": "pv_057", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpv4_oq244/candidate.py:10: error: NameError: name 'math' is not defined when calling power_of_two_flag(0)", "validated": "confirmed"}
+{"task_id": "pv_057", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmppxbzbhve/candidate.py:8: error: false when calling word_lengths('\\t') (which returns [])", "validated": "confirmed"}
+{"task_id": "pv_055", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmpqshzoxxp/candidate.py:8: error: false when calling word_lengths('') (which returns [0])", "validated": "confirmed"}
+{"task_id": "pv_055", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmptolrzh44/candidate.py:8: error: false when calling word_lengths('') (which returns [0])", "validated": "confirmed"}
+{"task_id": "pv_059", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "counterexample", "detail": "/tmp/tmp4ne3dyqd/candidate.py:8: error: false when calling word_lengths('') (which returns [0])", "validated": "confirmed"}
+{"task_id": "pv_055", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpdmtiajar/candidate.py:13: error: NameError: name 'bisect' is not defined when calling insert_sorted([0], 0)", "validated": "confirmed"}
+{"task_id": "pv_057", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_007", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp19eyzymz/candidate.py:9: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp761pasi9/candidate.py:9: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_005", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_007", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpg52siitj/candidate.py:9: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpjnupgp7a/candidate.py:9: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_005", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_007", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp213x65zw/candidate.py:9: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_005", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp1gpaapg4/candidate.py:11: error: false when calling merge_sorted([0, 400], [0]) (which returns [0, 400])\n/tmp/tmp1gpaapg4/candidate.py:12: error: false when calling merge_sorted([0], [0]) (which returns [0])", "validated": "confirmed"}
+{"task_id": "pv_010", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp7wm551ll/candidate.py:14: error: ZeroDivisionError:  when calling rotate_left([], 0)", "validated": "confirmed"}
+{"task_id": "pv_022", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpj_lzajkw/candidate.py:10: error: false when calling lower_bound([400], 0) (which returns 1)\n/tmp/tmpj_lzajkw/candidate.py:11: error: false when calling lower_bound([-1], 0) (which returns 0)", "validated": "confirmed"}
+{"task_id": "pv_021", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmplozh3jz6/candidate.py:10: error: false when calling kth_smallest([46138, 46140, 46139, 46141, 46138], 4) (which returns 46141)", "validated": "confirmed"}
+{"task_id": "pv_025", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp5y9k9h9j/candidate.py:9: error: false when calling interleave([0], [0]) (which returns [0])\n/tmp/tmp5y9k9h9j/candidate.py:10: error: false when calling interleave([0], [2]) (which returns [2])", "validated": "confirmed"}
+{"task_id": "pv_032", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp1soo29d7/candidate.py:10: error: false when calling interleave([4, 5], [3, 3]) (which returns [4, 5, 3, 3])", "validated": "confirmed"}
+{"task_id": "pv_034", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp20xmaw_v/candidate.py:10: error: false when calling interleave([4, 5], [3, 3]) (which returns [4, 5, 3, 3])", "validated": "confirmed"}
+{"task_id": "pv_034", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpkhz7jrho/candidate.py:10: error: false when calling interleave([4, 5], [3, 3]) (which returns [4, 5, 3, 3])", "validated": "confirmed"}
+{"task_id": "pv_033", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpdseoa6ci/candidate.py:9: error: false when calling sorted_squares([-4, 0]) (which returns [16, 0])", "validated": "confirmed"}
+{"task_id": "pv_045", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpef8y1vcg/candidate.py:20: error: IndexError: string index out of range when calling rle_encode('')", "validated": "confirmed"}
+{"task_id": "pv_044", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpopwa6ir5/candidate.py:13: error: IndexError: string index out of range when calling rle_encode('')", "validated": "confirmed"}
+{"task_id": "pv_043", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpd55oxqcx/candidate.py:10: error: false when calling first_missing_positive([-17869]) (which returns 2)", "validated": "confirmed"}
+{"task_id": "pv_048", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmptu2t97px/candidate.py:15: error: false when calling add_big_digits([9], [3]) (which returns [1, 2])\n/tmp/tmptu2t97px/candidate.py:16: error: false when calling add_big_digits([9], [1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_051", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpghkvv_93/candidate.py:14: error: false when calling add_big_digits([1], [9]) (which returns [1])\n/tmp/tmpghkvv_93/candidate.py:15: error: Error while evaluating post condition: IndexError: list index out of range when calling add_big_digits([0], [0]) (which returns [])", "validated": "confirmed"}
+{"task_id": "pv_053", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_053", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_053", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp4bqf31cc/candidate.py:15: error: false when calling add_big_digits([9], [1]) (which returns [1, 0])\n/tmp/tmp4bqf31cc/candidate.py:16: error: false when calling add_big_digits([9], [1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_053", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmpxt7kgxqt/candidate.py:15: error: false when calling add_big_digits([2], [4, 2]) (which returns [2, 6])", "validated": "confirmed"}
+{"task_id": "pv_053", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "counterexample", "detail": "/tmp/tmp1u7a7fdi/candidate.py:9: error: false when calling power_of_two_flag(0) (which returns True)", "validated": "confirmed"}
+{"task_id": "pv_057", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-3B-Instruct", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_002", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_003", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_001", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_004", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_005", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_007", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmplivbjlbv/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpeciakiga/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp920rpvre/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpmdzcpqsg/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_007", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp2o4jb1gf/candidate.py:6: error: false when calling reverse_list([3, 4]) (which returns [3, 4])", "validated": "spurious"}
+{"task_id": "pv_005", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_006", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_008", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_009", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_010", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_011", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_012", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_013", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_014", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_015", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_016", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_018", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_017", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_019", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp09xgryl9/candidate.py:12: error: ValueError: Input list must contain more than one element. when calling swap_ends([0])", "validated": "confirmed"}
+{"task_id": "pv_020", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp5h5e8o96/candidate.py:7: error: false when calling rotate_left([7, 6, 4], 1) (which returns [4, 7, 6])", "validated": "confirmed"}
+{"task_id": "pv_020", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_020", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpli15g1wm/candidate.py:7: error: false when calling rotate_left([7, 6, 6], 1) (which returns [6, 7, 6])", "validated": "confirmed"}
+{"task_id": "pv_022", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpy3q6d9sc/candidate.py:7: error: false when calling rotate_left([7, 6, 6], 1) (which returns [6, 7, 6])", "validated": "confirmed"}
+{"task_id": "pv_022", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_022", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_021", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_023", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_024", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_025", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_026", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_027", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_028", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_029", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_031", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_030", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_032", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_033", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_034", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_035", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_037", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_036", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_038", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_039", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_041", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_040", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_042", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_044", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp2cq5a1cf/candidate.py:6: error: false when calling sorted_squares([0, 1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_044", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpjinp8de8/candidate.py:6: error: false when calling sorted_squares([0, 1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_044", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpg_nwuyv8/candidate.py:6: error: false when calling sorted_squares([0, 1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_044", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpu4u7az47/candidate.py:6: error: false when calling sorted_squares([0, 1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_044", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_043", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_045", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_046", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp7iu4pqit/candidate.py:7: error: false when calling first_missing_positive([1]) (which returns 2)", "validated": "spurious"}
+{"task_id": "pv_048", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_048", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpdi7s20v2/candidate.py:7: error: false when calling first_missing_positive([1]) (which returns 2)", "validated": "spurious"}
+{"task_id": "pv_047", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_047", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp1mm714pj/candidate.py:7: error: false when calling first_missing_positive([1]) (which returns 2)", "validated": "spurious"}
+{"task_id": "pv_047", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_050", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_049", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_052", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpkooydzy9/candidate.py:12: error: false when calling add_big_digits([0], [1]) (which returns [1])\n/tmp/tmpkooydzy9/candidate.py:13: error: false when calling add_big_digits([9], [1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_051", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmphw_y_sl2/candidate.py:12: error: false when calling add_big_digits([9], [3]) (which returns [1, 2])\n/tmp/tmphw_y_sl2/candidate.py:13: error: false when calling add_big_digits([9], [1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_053", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpkn9v61sw/candidate.py:12: error: false when calling add_big_digits([9], [3]) (which returns [1, 2])\n/tmp/tmpkn9v61sw/candidate.py:13: error: false when calling add_big_digits([1], [9]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_053", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_053", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_053", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_053", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_051", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp1ovgy9zi/candidate.py:12: error: false when calling add_big_digits([3], [9]) (which returns [1, 2])\n/tmp/tmp1ovgy9zi/candidate.py:13: error: false when calling add_big_digits([9], [1]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_051", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmpd_wc1o3q/candidate.py:12: error: false when calling add_big_digits([3], [9]) (which returns [1, 2])\n/tmp/tmpd_wc1o3q/candidate.py:13: error: false when calling add_big_digits([1], [9]) (which returns [1, 0])", "validated": "confirmed"}
+{"task_id": "pv_054", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_054", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_056", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_057", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp11im6r9n/candidate.py:8: error: false when calling word_lengths('') (which returns [0])", "validated": "confirmed"}
+{"task_id": "pv_057", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "counterexample", "detail": "/tmp/tmp8wi0w929/candidate.py:8: error: false when calling word_lengths('') (which returns [0])", "validated": "confirmed"}
+{"task_id": "pv_058", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_055", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 1, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_058", "sample_id": 4, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 0, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 2, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
+{"task_id": "pv_059", "sample_id": 3, "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "status": "no_counterexample", "detail": ""}
